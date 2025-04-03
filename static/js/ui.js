@@ -577,10 +577,6 @@ const UISystem = {
 
 };
 
-// Initialiser le système d'interface au chargement complet du DOM
-document.addEventListener('DOMContentLoaded', () => {
-  UISystem.init();
-});
 
 // Exposer UISystem globalement pour pouvoir l'appeler depuis d'autres scripts (ex: AuthSystem)
 window.UISystem = UISystem;
